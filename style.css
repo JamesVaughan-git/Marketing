@@ -30,7 +30,10 @@ nav ul li a.active {
   font-weight: bolder;
   padding-bottom: 4px;
 }
-
+img,video {
+  max-width: 100%; /* Enlarged image display */
+  height: auto;
+}
 main {
   padding: 30px;
 }
@@ -63,8 +66,8 @@ footer {
   background-color: mediumpurple;
   color: white;
   padding: 10px;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
-  bottom: 0;
+  /*bottom: 0;*/
   font-size: 12px;
 }
